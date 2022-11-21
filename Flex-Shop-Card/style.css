@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  border: 2px solid red;
+  width: 20vw;
+  height: 50vh;
+}
+.image {
+  display: flex;
+  background-image: url(woman.jpg);
+  background-position: center;
+  width: 12vw;
+  height: 30vh;
+}
+.icon {
+ justify-self: flex-start;
+}
+
+.deal {
+  /* position: relative; */
+  align-items: flex-start;
+
+}
+
+i {
+  background-color: azure;
+  padding: 1rem;
+  position: relative;
+  top: 1rem;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+.brand span {
+  font-size: 1.7rem;
+}
+.brand :first-child {
+  margin-top: 1rem;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+.price span {
+  font-size: 1.5rem;
+}
+.price :first-child {
+  margin-top: 1rem;
+}
+.price :last-child {
+  margin-top: 0.2rem;
+}
+.deal {
+  background-color: red;
+  padding: 0.7rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: aliceblue;
+}
