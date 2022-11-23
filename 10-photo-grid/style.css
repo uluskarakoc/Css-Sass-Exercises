@@ -1,0 +1,14 @@
+img {
+  width: 100%;
+}
+body {
+  font-size: 10px;
+  background-color: rgb(233, 139, 139);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px); */
+  gap: 1rem;
+}

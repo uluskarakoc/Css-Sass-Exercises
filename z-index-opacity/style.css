@@ -11,44 +11,45 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: rgb(235, 136, 136);
 }
 
 img {
   width: 12vw;
+  z-index: auto;
 }
-content {
-}
+
 .deg1 {
   position: relative;
   top: 8rem;
   left: 15rem;
-  z-index: ;
+  /* z-index: ; */
   transform: rotate(-22deg);
 }
 .deg2 {
   position: relative;
   top: 4rem;
   left: 14rem;
-  opacity: 0.6;
-  z-index: 2;
+  opacity: 0.8;
+  /* z-index: 2; */
   transform: rotate(10deg);
 }
 .deg3 {
   position: relative;
   left: 10rem;
   opacity: 0.8;
-  z-index: 1;
+  /* z-index: 1; */
   transform: rotate(15deg);
 }
 .deg4 {
   position: relative;
   top: -3rem;
   left: 8rem;
-  opacity: 0.7;
-  z-index:3 ;
+  opacity: 0.6;
+  /* z-index: 3; */
   transform: rotate(5deg);
 }
+
 .bg-image {
   background-color: brown;
   padding: 0.3rem 0.3rem 1rem 0.3rem;
