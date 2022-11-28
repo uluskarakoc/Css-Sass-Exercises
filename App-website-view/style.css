@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/bg_001.jpg);
+}
+/* header/navbar */
+header a img {
+  width: 9vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1vw;
+  color: white;
+  height: 10vh;
+  margin-bottom: 5vw;
+}
+header ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 1.5vw;
+}
+/* main und div text */
+main {
+  display: flex;
+  justify-content: space-around;
+  height: 90vh;
+  width: 100vw;
+  margin: 0vw 6vw;
+}
+#text {
+  width: 35vw;
+  font-size: 1.2vw;
+  color: white;
+  position: relative;
+  left: 11vw;
+  top: 7vw;
+}
+#text h2 {
+  font-size: 2.5vw;
+}
+#text .btn-green {
+  background-color: green;
+  color: white;
+  padding: 0.7vw;
+  font-weight: bold;
+  margin-top: 2vw;
+  width: 13vw;
+  height: 6vh;
+  font-size: 1vw;
+}
+#text .btn-blue {
+  background-color: blue;
+  color: white;
+  padding: 0.7vw;
+  font-weight: bold;
+  width: 13vw;
+  height: 6vh;
+  font-size: 1vw;
+}
+/* div images-handy */
+#images-handy img {
+  width: 15vw;
+}
+#images-handy {
+  width: 50vw;
+  position: relative;
+  right:4vw;
+}
+.phone-white {
+  position: absolute;
+}
+.phone-black {
+  position: relative;
+  top: 2vw;
+  left: 10vw;
+  z-index: 1;
+}
